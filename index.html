@@ -5,20 +5,31 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>Bonchou from https://romainvertaldi.github.io</title>
 <style> h1{ 
-	color: red;
+	color: green;
 	font-size: 100px;
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.item {
+	border: 1px solid red;
+	padding: 30px;
 }
 </style>
 </head>
 
 <body>
-	<h1>Bonjour tout le monde :)</h1>
-	<h2>le monde est a porté</h2>
-	<p> Yahoo 2 c'est quand meme super d faire des fautes et de recommencer pour apprendre</p>
-	<script>
-    alert( 'Hello, world!' );
-  </script>
-	<p>C'est pas simple de faire des versions différentes</p>
-
+	<h1 class="container2">Bonjour tout le monde :)</h1>
+	<div class="container">
+		<h2 class="item">le monde est a porté</h2>
+		<p class="item"> Yahoo 2 c'est quand meme super d faire des fautes et de recommencer pour apprendre</p>
+		<p class="item">C'est pas simple de faire des versions différentes</p>
+	</div>
+	<div class="footer">
+		<p>hello</p>
+	</div>
 </body>
 </html>
